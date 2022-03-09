@@ -4,5 +4,5 @@
 
 # For Nginx --------------------------------
 FROM nginx:alpine
-RUN  apt install -y && apt update -y
+#RUN  apt install -y && apt update -y
 COPY Static-Web/ /usr/share/nginx/html
